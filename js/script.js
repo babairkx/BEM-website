@@ -1,4 +1,4 @@
-// menu toggle
+// mobile menu toggle
 document.addEventListener("DOMContentLoaded", () => {
   const toggleButton = document.querySelector(".navbar__mobile-menu-toggle");
   const mobileMenu = document.querySelector(".navbar__mobile-menu-dropdown");
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// menu scroll background
+// navbar scroll background
 window.addEventListener("scroll", () => {
   const navbar = document.querySelector(".navbar");
   if (window.scrollY > 0) {
